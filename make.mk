@@ -168,6 +168,7 @@ SRCS += \
   $(TOP)/watch-library/shared/driver/spiflash.c \
   $(TOP)/watch-library/shared/watch/watch_private_display.c \
   $(TOP)/watch-library/shared/watch/watch_utility.c \
+  $(TOP)/watch-library/shared/watch/quiet_time.c \
 
 DEFINES += \
   -D__SAML22J18A__ \
@@ -212,6 +213,7 @@ SRCS += \
   $(TOP)/watch-library/shared/driver/opt3001.c \
   $(TOP)/watch-library/shared/watch/watch_private_display.c \
   $(TOP)/watch-library/shared/watch/watch_utility.c \
+  $(TOP)/watch-library/shared/watch/quiet_time.c \
 
 endif
 
